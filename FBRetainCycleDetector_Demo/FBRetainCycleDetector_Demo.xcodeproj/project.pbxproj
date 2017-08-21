@@ -1,0 +1,616 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8A3E3A5BAFBA6EAA0A231BC9 /* libPods-FBRetainCycleDetector_Demo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7EA1EC4D80570A8817FCD5A4 /* libPods-FBRetainCycleDetector_Demo.a */; };
+		F2E9088D1F4A846E00BCEBB1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F2E9088C1F4A846E00BCEBB1 /* main.m */; };
+		F2E908901F4A846E00BCEBB1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F2E9088F1F4A846E00BCEBB1 /* AppDelegate.m */; };
+		F2E908931F4A846E00BCEBB1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F2E908921F4A846E00BCEBB1 /* ViewController.m */; };
+		F2E908961F4A846E00BCEBB1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F2E908941F4A846E00BCEBB1 /* Main.storyboard */; };
+		F2E908981F4A846E00BCEBB1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F2E908971F4A846E00BCEBB1 /* Assets.xcassets */; };
+		F2E9089B1F4A846E00BCEBB1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F2E908991F4A846E00BCEBB1 /* LaunchScreen.storyboard */; };
+		F2E908A61F4A846F00BCEBB1 /* FBRetainCycleDetector_DemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F2E908A51F4A846F00BCEBB1 /* FBRetainCycleDetector_DemoTests.m */; };
+		F2E908B11F4A846F00BCEBB1 /* FBRetainCycleDetector_DemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F2E908B01F4A846F00BCEBB1 /* FBRetainCycleDetector_DemoUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F2E908A21F4A846F00BCEBB1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F2E908801F4A846E00BCEBB1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F2E908871F4A846E00BCEBB1;
+			remoteInfo = FBRetainCycleDetector_Demo;
+		};
+		F2E908AD1F4A846F00BCEBB1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F2E908801F4A846E00BCEBB1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F2E908871F4A846E00BCEBB1;
+			remoteInfo = FBRetainCycleDetector_Demo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7EA1EC4D80570A8817FCD5A4 /* libPods-FBRetainCycleDetector_Demo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-FBRetainCycleDetector_Demo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		81634E107AF653B0DA335CF3 /* Pods-FBRetainCycleDetector_Demo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FBRetainCycleDetector_Demo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FBRetainCycleDetector_Demo/Pods-FBRetainCycleDetector_Demo.debug.xcconfig"; sourceTree = "<group>"; };
+		CAB3A00BA624A776E5FCC1A8 /* Pods-FBRetainCycleDetector_Demo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FBRetainCycleDetector_Demo.release.xcconfig"; path = "Pods/Target Support Files/Pods-FBRetainCycleDetector_Demo/Pods-FBRetainCycleDetector_Demo.release.xcconfig"; sourceTree = "<group>"; };
+		F2E908881F4A846E00BCEBB1 /* FBRetainCycleDetector_Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FBRetainCycleDetector_Demo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F2E9088C1F4A846E00BCEBB1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F2E9088E1F4A846E00BCEBB1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F2E9088F1F4A846E00BCEBB1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F2E908911F4A846E00BCEBB1 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		F2E908921F4A846E00BCEBB1 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F2E908951F4A846E00BCEBB1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F2E908971F4A846E00BCEBB1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F2E9089A1F4A846E00BCEBB1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F2E9089C1F4A846E00BCEBB1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F2E908A11F4A846F00BCEBB1 /* FBRetainCycleDetector_DemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FBRetainCycleDetector_DemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F2E908A51F4A846F00BCEBB1 /* FBRetainCycleDetector_DemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FBRetainCycleDetector_DemoTests.m; sourceTree = "<group>"; };
+		F2E908A71F4A846F00BCEBB1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F2E908AC1F4A846F00BCEBB1 /* FBRetainCycleDetector_DemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FBRetainCycleDetector_DemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F2E908B01F4A846F00BCEBB1 /* FBRetainCycleDetector_DemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FBRetainCycleDetector_DemoUITests.m; sourceTree = "<group>"; };
+		F2E908B21F4A846F00BCEBB1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F2E908851F4A846E00BCEBB1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8A3E3A5BAFBA6EAA0A231BC9 /* libPods-FBRetainCycleDetector_Demo.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F2E9089E1F4A846F00BCEBB1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F2E908A91F4A846F00BCEBB1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		08A724832E1DDE87A34F5503 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				81634E107AF653B0DA335CF3 /* Pods-FBRetainCycleDetector_Demo.debug.xcconfig */,
+				CAB3A00BA624A776E5FCC1A8 /* Pods-FBRetainCycleDetector_Demo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		2FE746433186A78A2343CCA6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7EA1EC4D80570A8817FCD5A4 /* libPods-FBRetainCycleDetector_Demo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F2E9087F1F4A846E00BCEBB1 = {
+			isa = PBXGroup;
+			children = (
+				F2E9088A1F4A846E00BCEBB1 /* FBRetainCycleDetector_Demo */,
+				F2E908A41F4A846F00BCEBB1 /* FBRetainCycleDetector_DemoTests */,
+				F2E908AF1F4A846F00BCEBB1 /* FBRetainCycleDetector_DemoUITests */,
+				F2E908891F4A846E00BCEBB1 /* Products */,
+				08A724832E1DDE87A34F5503 /* Pods */,
+				2FE746433186A78A2343CCA6 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		F2E908891F4A846E00BCEBB1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F2E908881F4A846E00BCEBB1 /* FBRetainCycleDetector_Demo.app */,
+				F2E908A11F4A846F00BCEBB1 /* FBRetainCycleDetector_DemoTests.xctest */,
+				F2E908AC1F4A846F00BCEBB1 /* FBRetainCycleDetector_DemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F2E9088A1F4A846E00BCEBB1 /* FBRetainCycleDetector_Demo */ = {
+			isa = PBXGroup;
+			children = (
+				F2E9088E1F4A846E00BCEBB1 /* AppDelegate.h */,
+				F2E9088F1F4A846E00BCEBB1 /* AppDelegate.m */,
+				F2E908911F4A846E00BCEBB1 /* ViewController.h */,
+				F2E908921F4A846E00BCEBB1 /* ViewController.m */,
+				F2E908941F4A846E00BCEBB1 /* Main.storyboard */,
+				F2E908971F4A846E00BCEBB1 /* Assets.xcassets */,
+				F2E908991F4A846E00BCEBB1 /* LaunchScreen.storyboard */,
+				F2E9089C1F4A846E00BCEBB1 /* Info.plist */,
+				F2E9088B1F4A846E00BCEBB1 /* Supporting Files */,
+			);
+			path = FBRetainCycleDetector_Demo;
+			sourceTree = "<group>";
+		};
+		F2E9088B1F4A846E00BCEBB1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F2E9088C1F4A846E00BCEBB1 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F2E908A41F4A846F00BCEBB1 /* FBRetainCycleDetector_DemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				F2E908A51F4A846F00BCEBB1 /* FBRetainCycleDetector_DemoTests.m */,
+				F2E908A71F4A846F00BCEBB1 /* Info.plist */,
+			);
+			path = FBRetainCycleDetector_DemoTests;
+			sourceTree = "<group>";
+		};
+		F2E908AF1F4A846F00BCEBB1 /* FBRetainCycleDetector_DemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F2E908B01F4A846F00BCEBB1 /* FBRetainCycleDetector_DemoUITests.m */,
+				F2E908B21F4A846F00BCEBB1 /* Info.plist */,
+			);
+			path = FBRetainCycleDetector_DemoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F2E908871F4A846E00BCEBB1 /* FBRetainCycleDetector_Demo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F2E908B51F4A846F00BCEBB1 /* Build configuration list for PBXNativeTarget "FBRetainCycleDetector_Demo" */;
+			buildPhases = (
+				1181D4BBDDE5A0A26BE913DA /* [CP] Check Pods Manifest.lock */,
+				F2E908841F4A846E00BCEBB1 /* Sources */,
+				F2E908851F4A846E00BCEBB1 /* Frameworks */,
+				F2E908861F4A846E00BCEBB1 /* Resources */,
+				22978BEDB68A628E41446AE4 /* [CP] Embed Pods Frameworks */,
+				3DCD6DCAE8DFC6809E56FC54 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FBRetainCycleDetector_Demo;
+			productName = FBRetainCycleDetector_Demo;
+			productReference = F2E908881F4A846E00BCEBB1 /* FBRetainCycleDetector_Demo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F2E908A01F4A846F00BCEBB1 /* FBRetainCycleDetector_DemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F2E908B81F4A846F00BCEBB1 /* Build configuration list for PBXNativeTarget "FBRetainCycleDetector_DemoTests" */;
+			buildPhases = (
+				F2E9089D1F4A846F00BCEBB1 /* Sources */,
+				F2E9089E1F4A846F00BCEBB1 /* Frameworks */,
+				F2E9089F1F4A846F00BCEBB1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F2E908A31F4A846F00BCEBB1 /* PBXTargetDependency */,
+			);
+			name = FBRetainCycleDetector_DemoTests;
+			productName = FBRetainCycleDetector_DemoTests;
+			productReference = F2E908A11F4A846F00BCEBB1 /* FBRetainCycleDetector_DemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F2E908AB1F4A846F00BCEBB1 /* FBRetainCycleDetector_DemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F2E908BB1F4A846F00BCEBB1 /* Build configuration list for PBXNativeTarget "FBRetainCycleDetector_DemoUITests" */;
+			buildPhases = (
+				F2E908A81F4A846F00BCEBB1 /* Sources */,
+				F2E908A91F4A846F00BCEBB1 /* Frameworks */,
+				F2E908AA1F4A846F00BCEBB1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F2E908AE1F4A846F00BCEBB1 /* PBXTargetDependency */,
+			);
+			name = FBRetainCycleDetector_DemoUITests;
+			productName = FBRetainCycleDetector_DemoUITests;
+			productReference = F2E908AC1F4A846F00BCEBB1 /* FBRetainCycleDetector_DemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F2E908801F4A846E00BCEBB1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = lee;
+				TargetAttributes = {
+					F2E908871F4A846E00BCEBB1 = {
+						CreatedOnToolsVersion = 8.3;
+						DevelopmentTeam = 6N4LW89MGE;
+						ProvisioningStyle = Automatic;
+					};
+					F2E908A01F4A846F00BCEBB1 = {
+						CreatedOnToolsVersion = 8.3;
+						DevelopmentTeam = 6N4LW89MGE;
+						ProvisioningStyle = Automatic;
+						TestTargetID = F2E908871F4A846E00BCEBB1;
+					};
+					F2E908AB1F4A846F00BCEBB1 = {
+						CreatedOnToolsVersion = 8.3;
+						DevelopmentTeam = 6N4LW89MGE;
+						ProvisioningStyle = Automatic;
+						TestTargetID = F2E908871F4A846E00BCEBB1;
+					};
+				};
+			};
+			buildConfigurationList = F2E908831F4A846E00BCEBB1 /* Build configuration list for PBXProject "FBRetainCycleDetector_Demo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F2E9087F1F4A846E00BCEBB1;
+			productRefGroup = F2E908891F4A846E00BCEBB1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F2E908871F4A846E00BCEBB1 /* FBRetainCycleDetector_Demo */,
+				F2E908A01F4A846F00BCEBB1 /* FBRetainCycleDetector_DemoTests */,
+				F2E908AB1F4A846F00BCEBB1 /* FBRetainCycleDetector_DemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F2E908861F4A846E00BCEBB1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F2E9089B1F4A846E00BCEBB1 /* LaunchScreen.storyboard in Resources */,
+				F2E908981F4A846E00BCEBB1 /* Assets.xcassets in Resources */,
+				F2E908961F4A846E00BCEBB1 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F2E9089F1F4A846F00BCEBB1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F2E908AA1F4A846F00BCEBB1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1181D4BBDDE5A0A26BE913DA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		22978BEDB68A628E41446AE4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FBRetainCycleDetector_Demo/Pods-FBRetainCycleDetector_Demo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3DCD6DCAE8DFC6809E56FC54 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FBRetainCycleDetector_Demo/Pods-FBRetainCycleDetector_Demo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F2E908841F4A846E00BCEBB1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F2E908931F4A846E00BCEBB1 /* ViewController.m in Sources */,
+				F2E908901F4A846E00BCEBB1 /* AppDelegate.m in Sources */,
+				F2E9088D1F4A846E00BCEBB1 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F2E9089D1F4A846F00BCEBB1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F2E908A61F4A846F00BCEBB1 /* FBRetainCycleDetector_DemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F2E908A81F4A846F00BCEBB1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F2E908B11F4A846F00BCEBB1 /* FBRetainCycleDetector_DemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F2E908A31F4A846F00BCEBB1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F2E908871F4A846E00BCEBB1 /* FBRetainCycleDetector_Demo */;
+			targetProxy = F2E908A21F4A846F00BCEBB1 /* PBXContainerItemProxy */;
+		};
+		F2E908AE1F4A846F00BCEBB1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F2E908871F4A846E00BCEBB1 /* FBRetainCycleDetector_Demo */;
+			targetProxy = F2E908AD1F4A846F00BCEBB1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F2E908941F4A846E00BCEBB1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F2E908951F4A846E00BCEBB1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F2E908991F4A846E00BCEBB1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F2E9089A1F4A846E00BCEBB1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F2E908B31F4A846F00BCEBB1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F2E908B41F4A846F00BCEBB1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F2E908B61F4A846F00BCEBB1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 81634E107AF653B0DA335CF3 /* Pods-FBRetainCycleDetector_Demo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 6N4LW89MGE;
+				INFOPLIST_FILE = FBRetainCycleDetector_Demo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.lee.FBRetainCycleDetector-Demo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F2E908B71F4A846F00BCEBB1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CAB3A00BA624A776E5FCC1A8 /* Pods-FBRetainCycleDetector_Demo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 6N4LW89MGE;
+				INFOPLIST_FILE = FBRetainCycleDetector_Demo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.lee.FBRetainCycleDetector-Demo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		F2E908B91F4A846F00BCEBB1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 6N4LW89MGE;
+				INFOPLIST_FILE = FBRetainCycleDetector_DemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.lee.FBRetainCycleDetector-DemoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FBRetainCycleDetector_Demo.app/FBRetainCycleDetector_Demo";
+			};
+			name = Debug;
+		};
+		F2E908BA1F4A846F00BCEBB1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 6N4LW89MGE;
+				INFOPLIST_FILE = FBRetainCycleDetector_DemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.lee.FBRetainCycleDetector-DemoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FBRetainCycleDetector_Demo.app/FBRetainCycleDetector_Demo";
+			};
+			name = Release;
+		};
+		F2E908BC1F4A846F00BCEBB1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 6N4LW89MGE;
+				INFOPLIST_FILE = FBRetainCycleDetector_DemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.lee.FBRetainCycleDetector-DemoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = FBRetainCycleDetector_Demo;
+			};
+			name = Debug;
+		};
+		F2E908BD1F4A846F00BCEBB1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 6N4LW89MGE;
+				INFOPLIST_FILE = FBRetainCycleDetector_DemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.lee.FBRetainCycleDetector-DemoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = FBRetainCycleDetector_Demo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F2E908831F4A846E00BCEBB1 /* Build configuration list for PBXProject "FBRetainCycleDetector_Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F2E908B31F4A846F00BCEBB1 /* Debug */,
+				F2E908B41F4A846F00BCEBB1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F2E908B51F4A846F00BCEBB1 /* Build configuration list for PBXNativeTarget "FBRetainCycleDetector_Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F2E908B61F4A846F00BCEBB1 /* Debug */,
+				F2E908B71F4A846F00BCEBB1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F2E908B81F4A846F00BCEBB1 /* Build configuration list for PBXNativeTarget "FBRetainCycleDetector_DemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F2E908B91F4A846F00BCEBB1 /* Debug */,
+				F2E908BA1F4A846F00BCEBB1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F2E908BB1F4A846F00BCEBB1 /* Build configuration list for PBXNativeTarget "FBRetainCycleDetector_DemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F2E908BC1F4A846F00BCEBB1 /* Debug */,
+				F2E908BD1F4A846F00BCEBB1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F2E908801F4A846E00BCEBB1 /* Project object */;
+}
