@@ -593,6 +593,7 @@
 				F2E908B71F4A846F00BCEBB1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F2E908B81F4A846F00BCEBB1 /* Build configuration list for PBXNativeTarget "FBRetainCycleDetector_DemoTests" */ = {
 			isa = XCConfigurationList;
@@ -601,6 +602,7 @@
 				F2E908BA1F4A846F00BCEBB1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F2E908BB1F4A846F00BCEBB1 /* Build configuration list for PBXNativeTarget "FBRetainCycleDetector_DemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -609,6 +611,7 @@
 				F2E908BD1F4A846F00BCEBB1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

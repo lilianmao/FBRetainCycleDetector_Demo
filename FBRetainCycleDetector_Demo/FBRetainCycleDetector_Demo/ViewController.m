@@ -11,6 +11,9 @@
 
 @interface ViewController ()
 
+@property (nonatomic, strong) id first;
+@property (nonatomic, weak) id second;
+
 @property (nonatomic, strong) NSTimer *timer;
 
 @end
