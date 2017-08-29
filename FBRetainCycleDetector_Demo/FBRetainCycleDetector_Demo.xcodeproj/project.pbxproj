@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		8A3E3A5BAFBA6EAA0A231BC9 /* libPods-FBRetainCycleDetector_Demo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7EA1EC4D80570A8817FCD5A4 /* libPods-FBRetainCycleDetector_Demo.a */; };
+		F2A709221F4EC18C00A2C3DD /* A.m in Sources */ = {isa = PBXBuildFile; fileRef = F2A709211F4EC18C00A2C3DD /* A.m */; };
+		F2A709251F4EC19500A2C3DD /* B.m in Sources */ = {isa = PBXBuildFile; fileRef = F2A709241F4EC19500A2C3DD /* B.m */; };
+		F2A709281F4EC45200A2C3DD /* C.m in Sources */ = {isa = PBXBuildFile; fileRef = F2A709271F4EC45200A2C3DD /* C.m */; };
 		F2E9088D1F4A846E00BCEBB1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F2E9088C1F4A846E00BCEBB1 /* main.m */; };
 		F2E908901F4A846E00BCEBB1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F2E9088F1F4A846E00BCEBB1 /* AppDelegate.m */; };
 		F2E908931F4A846E00BCEBB1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F2E908921F4A846E00BCEBB1 /* ViewController.m */; };
@@ -39,6 +42,12 @@
 		7EA1EC4D80570A8817FCD5A4 /* libPods-FBRetainCycleDetector_Demo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-FBRetainCycleDetector_Demo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		81634E107AF653B0DA335CF3 /* Pods-FBRetainCycleDetector_Demo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FBRetainCycleDetector_Demo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FBRetainCycleDetector_Demo/Pods-FBRetainCycleDetector_Demo.debug.xcconfig"; sourceTree = "<group>"; };
 		CAB3A00BA624A776E5FCC1A8 /* Pods-FBRetainCycleDetector_Demo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FBRetainCycleDetector_Demo.release.xcconfig"; path = "Pods/Target Support Files/Pods-FBRetainCycleDetector_Demo/Pods-FBRetainCycleDetector_Demo.release.xcconfig"; sourceTree = "<group>"; };
+		F2A709201F4EC18C00A2C3DD /* A.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = A.h; sourceTree = "<group>"; };
+		F2A709211F4EC18C00A2C3DD /* A.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = A.m; sourceTree = "<group>"; };
+		F2A709231F4EC19500A2C3DD /* B.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = B.h; sourceTree = "<group>"; };
+		F2A709241F4EC19500A2C3DD /* B.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = B.m; sourceTree = "<group>"; };
+		F2A709261F4EC45200A2C3DD /* C.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = C.h; sourceTree = "<group>"; };
+		F2A709271F4EC45200A2C3DD /* C.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = C.m; sourceTree = "<group>"; };
 		F2E908881F4A846E00BCEBB1 /* FBRetainCycleDetector_Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FBRetainCycleDetector_Demo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F2E9088C1F4A846E00BCEBB1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		F2E9088E1F4A846E00BCEBB1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -127,6 +136,12 @@
 			children = (
 				F2E9088E1F4A846E00BCEBB1 /* AppDelegate.h */,
 				F2E9088F1F4A846E00BCEBB1 /* AppDelegate.m */,
+				F2A709201F4EC18C00A2C3DD /* A.h */,
+				F2A709211F4EC18C00A2C3DD /* A.m */,
+				F2A709231F4EC19500A2C3DD /* B.h */,
+				F2A709241F4EC19500A2C3DD /* B.m */,
+				F2A709261F4EC45200A2C3DD /* C.h */,
+				F2A709271F4EC45200A2C3DD /* C.m */,
 				F2E908911F4A846E00BCEBB1 /* ViewController.h */,
 				F2E908921F4A846E00BCEBB1 /* ViewController.m */,
 				F2E908941F4A846E00BCEBB1 /* Main.storyboard */,
@@ -352,8 +367,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				F2E908931F4A846E00BCEBB1 /* ViewController.m in Sources */,
+				F2A709251F4EC19500A2C3DD /* B.m in Sources */,
 				F2E908901F4A846E00BCEBB1 /* AppDelegate.m in Sources */,
+				F2A709281F4EC45200A2C3DD /* C.m in Sources */,
 				F2E9088D1F4A846E00BCEBB1 /* main.m in Sources */,
+				F2A709221F4EC18C00A2C3DD /* A.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

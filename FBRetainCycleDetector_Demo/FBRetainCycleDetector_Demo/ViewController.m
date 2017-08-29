@@ -13,8 +13,30 @@
 
 @property (nonatomic, strong) id first;
 @property (nonatomic, weak) id second;
+@property (nonatomic, strong) id strong1;
+@property (nonatomic, strong) id strong2;
+@property (nonatomic, strong) id strong3;
+@property (nonatomic, strong) id strong4;
+@property (nonatomic, strong) id strong5;
+@property (nonatomic, strong) id strong6;
+@property (nonatomic, strong) id strong7;
+@property (nonatomic, strong) id strong8;
+@property (nonatomic, strong) id strong9;
+@property (nonatomic, strong) id strong10;
+@property (nonatomic, strong) id strong11;
+@property (nonatomic, strong) id strong12;
+@property (nonatomic, strong) id strong13;
+@property (nonatomic, strong) id strong14;
+@property (nonatomic, strong) id strong15;
+@property (nonatomic, strong) id strong16;
+@property (nonatomic, strong) id strong17;
+@property (nonatomic, strong) id strong18;
+@property (nonatomic, strong) id strong19;
+@property (nonatomic, strong) id strong20;
 
 @property (nonatomic, strong) NSTimer *timer;
+
+@property (nonatomic, copy) BOOL (^blockWithParamter)(NSString *input);
 
 @end
 
